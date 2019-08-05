@@ -195,6 +195,7 @@ require([
                 // var url = 'http://app01.saeon.ac.za/nccrdtestapi/odata/Projects/GeoJson';
                 var NCCRD_data = new NCCRD(wwd,url);
 
+
                 explorer.globe.layerManager.addDataLayer(NCCRD_data,{enabled: true, pickEnabled: true, opacity: 0.5});
             });
 
